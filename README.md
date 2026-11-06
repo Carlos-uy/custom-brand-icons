@@ -1,71 +1,53 @@
-[![GitHub release (latest by date)](https://img.shields.io/github/v/release/elax46/custom-brand-icons?style=for-the-badge)](https://github.com/elax46/custom-brand-icons/releases/latest)
-[![GitHub Downloads](https://img.shields.io/github/downloads/elax46/custom-brand-icons/total?style=for-the-badge)](https://github.com/elax46/custom-brand-icons/releases)
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/Carlos-uy/custom-brand-icons?style=for-the-badge)](https://github.com/Carlos-uy/custom-brand-icons/releases/latest)
+[![GitHub Downloads](https://img.shields.io/github/downloads/Carlos-uy/custom-brand-icons/total?style=for-the-badge)](https://github.com/Carlos-uy/custom-brand-icons/releases)
 [![MIT License][mit-shield]][mit-license]
-![GitHub file size in bytes](https://img.shields.io/github/size/elax46/custom-brand-icons/dist/custom-brand-icons.js?label=plugin%20size&style=for-the-badge)
-![GitHub last commit](https://img.shields.io/github/last-commit/elax46/custom-brand-icons?style=for-the-badge)
-[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-support-yellow?style=for-the-badge&logo=buymeacoffee&logoColor=white)](https://www.buymeacoffee.com/elax46)
+![GitHub file size in bytes](https://img.shields.io/github/size/Carlos-uy/custom-brand-icons/dist/custom-brand-icons.js?label=tamaño%20del%20plugin&style=for-the-badge)
+![GitHub last commit](https://img.shields.io/github/last-commit/Carlos-uy/custom-brand-icons?style=for-the-badge)
 
 [mit-license]: https://opensource.org/licenses/MIT
 [mit-shield]: https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge
 
 # Custom brand icons
 
-![logo](https://res.cloudinary.com/dcongin7u/image/upload/v1775920018/cbi-logo_pho7hp.png)
-
-#### Custom brand icons use the prefix `phu:`
-#### Append Name (of the icon) after `phu:`
-- Example: `phu:eggs` <img src="/icon-svg/eggs.svg" title="Preview" alt="Preview" width="24"/>
-- Example: `phu:chicken` <img src="/icon-svg/chicken.svg" title="Preview" alt="Preview" width="24"/>
+#### Custom brand icons usa el prefijo `phu:`
+#### Agrega el nombre (del icono) después de `phu:`
+- Ejemplo: `phu:eggs` <img src="/icon-svg/eggs.svg" title="Vista previa" alt="Vista previa" width="24"/>
+- Ejemplo: `phu:chicken` <img src="/icon-svg/chicken.svg" title="Vista previa" alt="Vista previa" width="24"/>
 
 ---
 
-### 🇮🇹 Special Note for Italian Users
-Are you monitoring your energy costs in Home Assistant? Check out my latest project: [**Card Bolletta**](https://github.com/elax46/card-bolletta).
+# Solicitudes de iconos
 
-It’s a custom card specifically designed for the Italian energy market. It helps you estimate your monthly bill in real-time, including taxes (IVA), system charges (Oneri di sistema), and excise duties (Accise).
+¿Quieres un icono? Abre una [solicitud de icono personalizado](https://github.com/Carlos-uy/custom-brand-icons/issues/new?assignees=Carlos-uy&labels=icon-request&template=insertion-of-new-icons.md&title=Solicitud+de+icono+personalizado) o [contribuye al proyecto](#flujo-de-trabajo-para-desarrolladores).
+- Proporciona un **archivo SVG y un logo JPG de tu solicitud** (no somos lectores de mentes y no conocemos todos los iconos del mundo; si no se indica ningún nombre, agrégalo o la solicitud será ignorada) y una imagen junto con tu solicitud.
+- Los enlaces a SVG o imágenes serán ignorados: debes subir los archivos dentro de tu solicitud y deben ser visibles en la publicación. `IGNORAR ESTA SIMPLE PETICIÓN RESULTARÁ EN QUE TU SOLICITUD SEA IGNORADA Y CERRADA` (si no quieres tomarte unos minutos para hacerlo, ¿por qué deberíamos nosotros dedicar tiempo a buscarlo y crearlo?).
+- Aquellos que [hicieron sus propios iconos](#flujo-de-trabajo-para-desarrolladores) deben abrir pull requests en la **[rama dev](https://github.com/Carlos-uy/custom-brand-icons/pulls)**.
 
-**Key features:**
-* Support for F1, F2, F3 price brackets.
-* Real-time bill estimation.
-* **New:** Ultra-compact layout for minimalist dashboards.
-* Detailed cost breakdown (Energy vs. Transport vs. Taxes).
-
-Give it a try and let me know what you think! ⭐
-
-# Icon Requests
-
-Want an icon? Open a [custom icon request](https://github.com/elax46/custom-brand-icons/issues/new?assignees=elax46&labels=icon-request&template=insertion-of-new-icons.md&title=Custom+Icon+request) or [contribute to the project](#developer-workflow).
--  Provide a **svg file and jpg logo of your request (we also are not mind readers and dont know every icon globaly so if no name is present please add it or it will be ignored** and a image along with your request.
--  links to SVG's or Images will be ignored, you must upload the files into your request and they must be visible in post. `IGNORING THIS SIMPLE REQUEST WILL RESULT IN YOUR REQUEST BEING IGNORED AND CLOSED`  (if you can not be bothered to spend a few minutes doing this, why should we spend time looking for it and making it).
--  For those who [made their own icons](#developer-workflow), open pull requests on the **[dev branch](https://github.com/elax46/custom-brand-icons/pulls)**.
-
-### Make sure to [install](#installation-methods) `custom-brand-icons.js` into `configuration.yaml` or `ui-lovelace.yaml`
-
-![2FA](https://res.cloudinary.com/dcongin7u/image/upload/v1620853194/example_pwvozi.jpg)
+### Asegúrate de [instalar](#métodos-de-instalación) `custom-brand-icons.js` en `configuration.yaml` o `ui-lovelace.yaml`
 
 ## Iconify
 
-All icons are available in the [framework Iconify](https://github.com/iconify). You can use icons using the prefix `cbi`. Anyone who uses this icon set via the framework is reminded to comply with the license. For commercial purposes you can contact us
+Todos los iconos están disponibles en el [framework Iconify](https://github.com/iconify). Puedes usar los iconos con el prefijo `cbi`. Cualquiera que use este conjunto de iconos a través del framework debe cumplir con la licencia.
 
-- For all information  visit the website https://iconify.design
-- For use visit https://iconify.design/docs/usage/
-- Browse Icons  https://icon-sets.iconify.design/cbi/
+- Para toda la información, visita el sitio web https://iconify.design
+- Para el uso, visita https://iconify.design/docs/usage/
+- Explora los iconos en https://icon-sets.iconify.design/cbi/
 
+## Iconos disponibles
 
-## Available Icons
+Para ver todos los iconos disponibles, puedes ir a la siguiente dirección. El visor de iconos también te permite generar un `custom-brand-icons.js` solo con los iconos que quieras, lo que te permite reducir el paquete de iconos y eliminar problemas de carga.
 
-To view all available icons, you can go to the following address. The icon viewer also allows you to generate a `custom brand-icons.js` with only the icons you want, allowing you to streamline the icon pack and eliminate loading issues.
- -  [Icon Finder](https://elax46.github.io/custom-brand-icons/)
+ -  [Buscador de iconos](https://carlos-uy.github.io/custom-brand-icons/)
 
-# Installation Methods
+# Métodos de instalación
 
 #### HACS
 
-We recommend installing Custom brand icons card via [Home Assistant Community Store](https://hacs.xyz)
-[![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=elax46&repository=custom-brand-icons&category=frontend)
+Recomendamos instalar la tarjeta Custom brand icons mediante el [Home Assistant Community Store](https://hacs.xyz)
+[![Abre tu instancia de Home Assistant y abre un repositorio dentro de Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=Carlos-uy&repository=custom-brand-icons&category=frontend)
 
-After installing through HACS:
-1. Add the following lines to your `configuration.yaml`
+Después de instalarlo a través de HACS:
+1. Agrega las siguientes líneas a tu `configuration.yaml`
 
     ```yaml
     frontend:
@@ -73,7 +55,7 @@ After installing through HACS:
         - /local/community/custom-brand-icons/custom-brand-icons.js
     ```
 
-2. (Optional) YAML mode users. Add the following to your lovelace configuration using the Raw Config editor under Configure UI or ui-lovelace.yaml.
+2. (Opcional) Usuarios en modo YAML. Agrega lo siguiente a tu configuración de Lovelace usando el editor Raw Config en Configurar UI o en `ui-lovelace.yaml`.
 
     ```yaml
     resources:
@@ -81,14 +63,14 @@ After installing through HACS:
         url: /local/community/custom-brand-icons/custom-brand-icons.js
     ```
 
-#### Manual Installation
+#### Instalación manual
 
-To add custom repositories please follow [this guide](https://hacs.xyz/docs/faq/custom_repositories/). Set URL to `` and category to `Lovelace`.
+Para agregar repositorios personalizados, sigue [esta guía](https://hacs.xyz/docs/faq/custom_repositories/). Establece la URL en `https://github.com/Carlos-uy/custom-brand-icons` y la categoría en `Lovelace`.
 
-1. Download `custom-brand-icons.js` file from the [latest release](/releases/latest).
-2. Copy the `custom-brand-icons.js` file into `<config>/www/` the directory where your `configuration.yaml` resides.
+1. Descarga el archivo `custom-brand-icons.js` desde la [última versión](/releases/latest).
+2. Copia el archivo `custom-brand-icons.js` en el directorio `<config>/www/`, donde se encuentra tu `configuration.yaml`.
 
-3. Add the following to the `frontend` section of your `configuration.yaml`
+3. Agrega lo siguiente a la sección `frontend` de tu `configuration.yaml`
 
     ```yaml
     frontend:
@@ -96,7 +78,7 @@ To add custom repositories please follow [this guide](https://hacs.xyz/docs/faq/
         - /local/custom-brand-icons.js
     ```
 
-4. (Optional) YAML mode users. Add the following to your lovelace configuration using the Raw Config editor under Configure UI or ui-lovelace.yaml.
+4. (Opcional) Usuarios en modo YAML. Agrega lo siguiente a tu configuración de Lovelace usando el editor Raw Config en Configurar UI o en `ui-lovelace.yaml`.
 
     ```yaml
     resources:
@@ -104,18 +86,18 @@ To add custom repositories please follow [this guide](https://hacs.xyz/docs/faq/
         url: /local/custom-brand-icons.js
     ```
 
-5. Restart Home Assistant.
+5. Reinicia Home Assistant.
 
 ---
 
-# User Manual
+# Manual de usuario
 
-#### Custom brand icons use the prefix `phu:`
-#### Append Name (of the icon) after `phu:`
-- Example: `phu:eggs` <img src="/icon-svg/eggs.svg" title="Preview" alt="Preview" width="24"/>
-- Example: `phu:chicken` <img src="/icon-svg/chicken.svg" title="Preview" alt="Preview" width="24"/>
+#### Custom brand icons usa el prefijo `phu:`
+#### Agrega el nombre (del icono) después de `phu:`
+- Ejemplo: `phu:eggs` <img src="/icon-svg/eggs.svg" title="Vista previa" alt="Vista previa" width="24"/>
+- Ejemplo: `phu:chicken` <img src="/icon-svg/chicken.svg" title="Vista previa" alt="Vista previa" width="24"/>
 
-Example of custom brand icons a lovelace card:
+Ejemplo de custom brand icons en una tarjeta de Lovelace:
 
 ```yaml
 entities:
@@ -135,77 +117,77 @@ type: entities
 
 ---
 
-# Don't see the icon?
+# ¿No ves el icono?
 
-### Cache issue HomeAssistant 2024.1.1
+### Problema de caché en Home Assistant 2024.1.1
 
-Some addons (including official) have had some [cache issues since 2024.1.1]([https://](https://github.com/elax46/custom-brand-icons/issues/560)), here are a few work arounds to try
+Algunos complementos (incluidos los oficiales) han tenido problemas de caché desde la versión 2024.1.1; aquí tienes algunas soluciones para probar.
 
-1. first go to settings, dashboard and 3 dots click resorces, add resource
+1. Primero ve a Ajustes, panel y los 3 puntos, haz clic en recursos, agregar recurso
 
     ```yaml
     /hacsfiles/custom-brand-icons/custom-brand-icons.js?hacstag=366862031202420
     ```
 
-2. Add this second resource too
+2. Agrega también este segundo recurso
     ```yaml
     /local/community/custom-brand-icons/custom-brand-icons.js
     ```
 
 
-#### Hard Reload (browser cache issue)
-- Reload browser by holding CTRL and pressing F5.
-- For Mac, hold ⌘ CMD and ⇧ SHIFT, then press R.
+#### Recarga completa (problema de caché del navegador)
+- Recarga el navegador manteniendo presionado CTRL y pulsando F5.
+- En Mac, mantén presionado ⌘ CMD y ⇧ SHIFT, y pulsa R.
 
-#### Redownload Integration
-1. From left sidebar, select on *HACS*.
-2. Select on *Integrations*.
-3. From the top header bar (Integrations, Frontend), select *Frontend*.
-4. Search *custom-brand-icons* on the search bar.
-5. Select *Custom brand icons*.
-6. From the top right, select the 3 vertical dots which opens a dropdown menu.
-7. Select *Redownload*.
-8. **Hard reload** browser.
+#### Volver a descargar el componente
+1. En la barra lateral izquierda, selecciona *HACS*.
+2. Selecciona *Integraciones*.
+3. En la barra superior (Integraciones, Frontend), selecciona *Frontend*.
+4. Busca *custom-brand-icons* en la barra de búsqueda.
+5. Selecciona *Custom brand icons*.
+6. En la esquina superior derecha, selecciona los 3 puntos verticales que abren un menú desplegable.
+7. Selecciona *Volver a descargar* (Redownload).
+8. **Recarga por completo** el navegador.
 
-#### Reinstall Integration
-1. Open the dropdown menu from **Step 6** of **Redownload Integration**.
-2. Select *Remove*, then select *Remove* again on the popup.
-3. This should bring you back to /hacs/frontend
-4. From the top right, select the 3 vertical dots which opens a dropdown menu.
-5. Select on *Custom repositories*.
-6. Find *Custom brand icons* and select it.
-7. On the bottom right, select the big blue *Download* icon.
-8. **Hard reload** browser.
+#### Reinstalar el componente
+1. Abre el menú desplegable desde el **Paso 6** de **Volver a descargar el componente**.
+2. Selecciona *Eliminar* (Remove) y luego selecciona *Eliminar* de nuevo en la ventana emergente.
+3. Esto debería devolverte a /hacs/frontend
+4. En la esquina superior derecha, selecciona los 3 puntos verticales que abren un menú desplegable.
+5. Selecciona *Repositorios personalizados* (Custom repositories).
+6. Busca *Custom brand icons* y selecciónalo.
+7. En la esquina inferior derecha, selecciona el icono azul grande de *Descargar*.
+8. **Recarga por completo** el navegador.
 
 
-#### Create a smaller version of the icon pack
+#### Crear una versión más pequeña del paquete de iconos
 
-1. Go to [icon viewer](https://elax46.github.io/custom-brand-icons/)
-2. Select all the icons you want to add to your HA instance
-3. Download the js file and install it manually in Home Assistant
+1. Ve al [visor de iconos](https://carlos-uy.github.io/custom-brand-icons/)
+2. Selecciona todos los iconos que quieras agregar a tu instancia de HA
+3. Descarga el archivo JS e instálalo manualmente en Home Assistant
 
 ---
 
-# Developer Workflow
+# Flujo de trabajo para desarrolladores
 
-### Make your own `svg` icon
+### Crea tu propio icono en `svg`
 
-- To make an icon in svg format you can use different programs starting from illustrator, inkview, or [Inkscape](https://inkscape.org/).
-- Verify `svg` icons are set properly by using text editor of your choice ([Notepad++](https://notepad-plus-plus.org/), Notepad, or Visual Studio Code).
-- Rules on Icon size and contraints are ([HERE](https://github.com/elax46/custom-brand-icons/discussions/1021), 
-- The `svg` code must contain **viewbox**. No transform, translate, or scale.
-- Make sure to add color: **#44739e**. Every custom brand icon uses this color.
-- all icons must have a nomenclature NOT in camelcase but of the type `part1name-part2name`
-- Once done, add the svg file in the folder `icon-svg` found in the root of the repo.
+- Para crear un icono en formato SVG puedes usar diferentes programas, desde Illustrator, Inkscape o [Inkscape](https://inkscape.org/).
+- Verifica que los iconos `svg` estén configurados correctamente usando el editor de texto que prefieras ([Notepad++](https://notepad-plus-plus.org/), Notepad o Visual Studio Code).
+- Las reglas sobre el tamaño y las restricciones del icono se detallan en los puntos siguientes.
+- El código `svg` debe contener **viewBox**. Sin transform, translate ni scale.
+- Asegúrate de agregar el color: **#44739e**. Todos los iconos personalizados usan este color.
+- Todos los iconos deben tener una nomenclatura que NO esté en camelCase, sino del tipo `part1name-part2name`.
+- Cuando termines, agrega el archivo SVG en la carpeta `icon-svg` que se encuentra en la raíz del repositorio.
 
-- the icon must ***not be composed of multiple paths but a single** one as shown in the example below
+- el icono ***no debe estar compuesto por múltiples paths sino por uno solo***, como se muestra en el ejemplo de abajo
 
-Example svg file below:
+Ejemplo de archivo SVG:
 
 ```svg
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
-<!-- path d="..." is unique for each icon -->
+<!-- path d="..." es único para cada icono -->
 
 <svg
    width="24"
@@ -222,14 +204,14 @@ Example svg file below:
 ```
 
 
-###  ( optional ) if you want to generate the icon package locally
+### (opcional) Si quieres generar el paquete de iconos localmente
 
 > [!WARNING]  
->You need to have Node.js installed to use automatic generation.
+> Necesitas tener Node.js instalado para usar la generación automática.
 
-Go to the local folder where the `custom-icons-builder.js` file is located and run `node custom-icons-builder.cjs` The script will generate a new `custom brand-icons` file with the updated icons.
+Ve a la carpeta local donde se encuentra el archivo `custom-icons-builder.js` y ejecuta `node custom-icons-builder.cjs`. El script generará un nuevo archivo `custom-brand-icons` con los iconos actualizados.
 
-If everything went well you will see a message like this
+Si todo salió bien verás un mensaje como este:
 
 ```js
 ✅ Build completed
@@ -237,54 +219,53 @@ If everything went well you will see a message like this
 🔢 Total icons: XXXX
 ```
 
-(Optional) In case you want to create your own prefix you can edit the last line of the `custom-brand-icons.js`
+(Opcional) Si quieres crear tu propio prefijo, puedes editar la última línea de `custom-brand-icons.js`
 
 ```js
 window.customIconsets["yourprefix"] = getIcon;
 ```
 
-### Normalize script
+### Script de normalización
 
 > [!WARNING]  
->You need to have Node.js installed to use.
+> Necesitas tener Node.js instalado para usarlo.
 
 > [!NOTE]  
-> This procedure can be performed locally to verify that the icons meet the required requirements and that they are compliant and minimized as best as possible.
+> Este procedimiento se puede realizar localmente para verificar que los iconos cumplen los requisitos necesarios y que son compatibles y minimizados de la mejor manera posible.
 
-Thanks to the work of @SoulSolistice, a `normalize-icons.mjs` has been introduced that performs the following operations:
+Se ha introducido un script `normalize-icons.mjs` que realiza las siguientes operaciones:
 
 - `viewBox="0 0 24 24"`
-- geometry scaled to fit within `MAX_GEO` x `MAX_GEO` (aspect preserved), default 20x20
-- geometry centered at `viewBox / 2`, default 12,12
-- paths only output, baked coordinates, no transforms
-- fill color is fixed to BRAND_FILL, default `#44739e`
-- --clean: svgo --> normalize --> svgo (because normalization expands path data)
-- --vrt: ImageMagick montage ... --> script/vrt.png as "Visual Regression Test"
-- default input/output (when not specified): custom-brand-icons/icon-svg
+- geometría escalada para caber dentro de `MAX_GEO` x `MAX_GEO` (conservando la relación de aspecto), por defecto 20x20
+- geometría centrada en `viewBox / 2`, por defecto 12,12
+- solo se emiten paths, con coordenadas ya aplicadas, sin transforms
+- el color de relleno se fija a BRAND_FILL, por defecto `#44739e`
+- --clean: svgo --> normalize --> svgo (porque la normalización expande los datos de los paths)
+- --vrt: ImageMagick montage ... --> script/vrt.png como "Prueba de regresión visual"
+- entrada/salida por defecto (si no se especifica): custom-brand-icons/icon-svg
 
 
-#### Installation & use:
-* Run `npm i` in `custom-brand-icons` folder to install requirements
-* Run `npm run clean:vrt` to clean the current icons (will be overwritten). Also creates `vrt.png` in the `scripts` folder as "Visual Regression Test". This needs ImageMagick installed.
+#### Instalación y uso:
+* Ejecuta `npm i` en la carpeta `custom-brand-icons` para instalar los requisitos
+* Ejecuta `npm run clean:vrt` para limpiar los iconos actuales (serán sobrescritos). También crea `vrt.png` en la carpeta `scripts` como "Prueba de regresión visual". Esto requiere tener ImageMagick instalado.
 
 
-### Running locally using docker
-This repository contains a docker-compose file that performs the two tasks above:
-1. Runs the `node custom-icons-builder.cjs` script using node 22 to generate custom icons.
-2. Builds a local Docker image with node 22 and ImageMagick and then normalizes and cleans up the generated files using `npm run clean:vrt`.
+### Ejecución local usando Docker
+Este repositorio contiene un archivo docker-compose que realiza las dos tareas anteriores:
+1. Ejecuta el script `node custom-icons-builder.cjs` usando node 22 para generar los iconos personalizados.
+2. Construye una imagen local de Docker con node 22 y ImageMagick y luego normaliza y limpia los archivos generados usando `npm run clean:vrt`.
 
-To perform these tasks, run one of the following commands:
+Para realizar estas tareas, ejecuta uno de los siguientes comandos:
 ```sh
 docker compose up build
 docker compose up normalize --build
 ```
 
 
-### Contributions and Pull Requests
+### Contribuciones y Pull Requests
 
 > [!IMPORTANT]
-> **Contributions Rules:** All Pull Requests must be targeted to the `dev` branch. 
-> PRs opened against `main` will be automatically closed by our bot.
+> **Reglas de contribución:** Todos los Pull Requests deben apuntar a la rama `dev`.
+> Los PRs abiertos contra `main` serán cerrados automáticamente.
 
-After adding your svg icon in `icon-svg` folder . Open pull request on the **[dev branch](https://github.com/elax46/custom-brand-icons/pulls)**. You should create a **new feature branch** on your fork (e.g., `feat/add-new-icon`) and submit your PR from there.
-
+Después de agregar tu icono SVG en la carpeta `icon-svg`, abre un pull request en la **[rama dev](https://github.com/Carlos-uy/custom-brand-icons/pulls)**. Debes crear una **nueva rama de funcionalidad** en tu fork (por ejemplo, `feat/add-new-icon`) y enviar tu PR desde ahí.
